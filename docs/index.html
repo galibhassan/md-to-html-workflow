@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./external/js/highlight.pack.js"></script>
+    <link rel="stylesheet" href="./external/styles/vs2015.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    <script>
+      hljs.initHighlightingOnLoad();
+    </script>
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+      });
+    </script>
+    <script
+      type="text/javascript"
+      async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML"
+    ></script>
+    <script src="../src/enumerate.js"></script>
+    <script src="../src/imgCenterize.js"></script>
+
+    
+  </head>
+  <body>
+    <div class="nav"></div>
+    <div class="tocContainer">
+      <div class="tocHeading"> Table of Content </div>
+      <div class="sidebar"></div>
+    </div>
+
+    <div class="container">
+<h1 id="powergridfrequencydata">Power-Grid-Frequency-Data</h1>
+<p>Power-grid frequency data from around the world, cleaned and processed for research usage</p>
+<p>The data is collected from the TSO's and is processed to remove dead recordings, spikes, and other naturally assumed bad measurements. The scripts that are used to clean the data are also included, for transparency.</p>
+<p>The</p>
+<h1 id="europeangrids">European Grids</h1>
+<p>Available are recording from the Continental Europe (UTCE) area: Germany, France.
+From Great Britain (United Kingdom). From the Nordic Grid, from Fingrid.</p>
+<h2 id="germanytransnetbw">Germany - TransNet BW</h2>
+<p>These recordings are obtained from the <a href="https://www.transnetbw.com/en/energy-market/ancillary-services/control-reserve-demand-activation">TransNet BW</a></p>
+<h1 id="todo">Todo</h1>
+<h3 id="scriptstocleandatatoinclude">Scripts to clean data to include</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center;">Germany</th>
+<th style="text-align:center;">France</th>
+<th style="text-align:center;">Great Britain</th>
+<th style="text-align:center;">Nordic Grid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;"><span class="cross">X</span></td>
+<td style="text-align:center;"><span class="cross">X</span></td>
+<td style="text-align:center;"><span class="cross">X</span></td>
+<td style="text-align:center;"><span class="cross">X</span></td>
+</tr>
+</tbody>
+</table>
+<h3 id="datatouploadstill">Data to upload still</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center;">Germany</th>
+<th style="text-align:center;">France</th>
+<th style="text-align:center;">Great Britain</th>
+<th style="text-align:center;">Nordic Grid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center;"><span class="cross">X</span> 2019</td>
+<td style="text-align:center;"><span class="cross">X</span> 2019</td>
+<td style="text-align:center;"><span class="cross">X</span> 2019</td>
+<td style="text-align:center;"><span class="cross">X</span> 2019</td>
+</tr>
+<tr>
+<td style="text-align:center;"><span class="cross">X</span> 2018</td>
+<td style="text-align:center;"><span class="cross">X</span> 2018</td>
+<td style="text-align:center;"><span class="cross">X</span> 2018</td>
+<td style="text-align:center;"><span class="cross">X</span> 2018</td>
+</tr>
+<tr>
+<td style="text-align:center;"><a href="https://github.com/LRydin/Power-Grid-Frequency-Data/raw/master/Continental%20Europe/Germany/2017/2017.zip">2017</a></td>
+<td style="text-align:center;"><span class="cross">X</span> 2017</td>
+<td style="text-align:center;"><span class="cross">X</span> 2017</td>
+<td style="text-align:center;"><span class="cross">X</span> 2017</td>
+</tr>
+<tr>
+<td style="text-align:center;"><span class="cross">X</span> 2016</td>
+<td style="text-align:center;"><span class="cross">X</span> 2016</td>
+<td style="text-align:center;"><span class="cross">X</span> 2016</td>
+<td style="text-align:center;"><span class="cross">X</span> 2016</td>
+</tr>
+<tr>
+<td style="text-align:center;"><span class="cross">X</span> 2015</td>
+<td style="text-align:center;"><span class="cross">X</span> 2015</td>
+<td style="text-align:center;"><span class="cross">X</span> 2015</td>
+<td style="text-align:center;"><span class="cross">X</span> 2015</td>
+</tr>
+<tr>
+<td style="text-align:center;"><span class="cross">X</span> 2014</td>
+<td style="text-align:center;"><span class="cross">X</span> 2014</td>
+<td style="text-align:center;"><span class="cross">X</span> 2014</td>
+<td style="text-align:center;"><span class="cross">X</span> 2014</td>
+</tr>
+</tbody>
+</table>
+<p>https://github.com/LRydin/Power-Grid-Frequency-Data/raw/master/Continental%20Europe/Germany/2017/2017.zip</p>
+<h1 id="changelog">Changelog</h1>
+<ul>
+<li>Version 0.3 - Moving to Github to produce a long-term repository.</li>
+<li>Version 0.2 - Moved to <a href="https://jugit.fz-juelich.de/">JuGit</a> server</li>
+<li>Version 0.1 - Initial construction based files on a <a href="https://www.sciebo.de/">Sciebo</a> folder</li>
+</ul>
+<h1 id="contributions">Contributions</h1>
+<p>If you have open data from power-grid system, be it frequency, voltages, load, consumption, models, we will welcome all contributions to enhance this database</p>
+<h2 id="affiliatedinstitutionsandcollaborators">Affiliated institutions and collaborators</h2>
+<p>This project came to life by Leonardo Rydin Gorjão in 2018 on a GitHub repository</p>
+<p>This project is supported by Dirk Witthaut.</p>
+<h3 id="funding">Funding</h3>
+<p>Helmholtz Association Initiative <em>Energy System 2050 - A Contribution of the Research Field Energy</em> and the grant No. VH-NG-1025.</p>  </div>
+
+</body>
+</html>

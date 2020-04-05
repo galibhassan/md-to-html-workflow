@@ -1,0 +1,94 @@
+body {
+  font-family: "Nunito Sans", sans-serif;
+}
+.hljs {
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+a:link {
+  color: rgb(83, 133, 197);
+  text-decoration: none;
+} /* - a normal, unvisited link*/
+a:visited {
+  color: rgb(126, 141, 184);
+} /* - a link the user has visited*/
+a:hover {
+  color: rgb(194, 206, 240);
+} /* - a link when the user mouses over it*/
+a:active {
+  color: rgb(63, 73, 98);
+} /* - a link the moment it is clicked*/
+body {
+  margin: 0px;
+}
+
+.container {
+  margin-right: 4rem;
+  width: 65%;
+  float: right;
+}
+
+h1.code,
+h2.code,
+h3.code,
+h4.code {
+  font-size: 1.5rem;
+}
+
+table,
+th,
+td {
+  border: none;
+  padding: 10px;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.2);
+  border-collapse: separate;
+}
+.cross {
+  color: rgb(246, 99, 99);
+  padding: 5px;
+  font-weight: bold;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 20%;
+  position: fixed;
+  background: #333333;
+  position: fixed;
+}
+.tocContainer {
+  top: 0rem;
+  position: fixed;
+}
+.tocHeading {
+  width: 200%;
+  background: #333333;
+  color: #7c7c7c;
+  padding: 5px;
+}
+.tocChunk {
+  margin: 2px;
+  padding: 1rem;
+  box-shadow: 1px 1px 10px 1px rgba(0, 0, 0, 0.1);
+}
+.tocChunk:hover {
+  background: #242424;
+}
+.nav {
+  width: 100%;
+  height: 0rem;
+  background: #2c2c2c;
+  position: fixed;
+  top: 0px;
+}
+h1 {
+  margin-top: 2rem;
+  margin-left: -1rem;
+}
+.imgParent {
+  text-align: center;
+}
+img {
+}

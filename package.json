@@ -1,0 +1,20 @@
+{
+  "name": "md-to-html-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js",
+    "docgen": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "highlight.js": "^9.18.1",
+    "nodemon": "^2.0.2",
+    "replace": "^1.1.5",
+    "showdown": "^1.9.1"
+  }
+}
