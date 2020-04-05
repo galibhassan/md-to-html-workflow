@@ -1,4 +1,4 @@
-# Power-Grid-Frequency-Data
+# Power-Grid-Frequency-Data (SAMPLE CHANGE - TO BE DELETED)
 
 Power-grid frequency data from around the world, cleaned and processed for research usage
 
