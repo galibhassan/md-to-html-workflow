@@ -19,19 +19,19 @@ const header = fs.readFileSync(path.resolve(__dirname, "../", "template", "heade
 const footer = fs.readFileSync(path.resolve(__dirname, "../", "template", "footer.txt"), { encoding: "utf8" });
 const outputHTML = header + docStructDOM + footer;
 
-fs.writeFileSync(path.resolve(__dirname, "../", "index.html"), outputHTML);
+fs.writeFileSync(path.resolve(__dirname, "../../", "index.html"), outputHTML);
 
 replace({
   regex: ":x:",
   replacement: `<span class="cross">X</span>`,
-  paths: [path.resolve(__dirname, "../", "index.html")],
+  paths: [path.resolve(__dirname, "../../", "index.html")],
   recursive: true,
   silent: true,
 });
 replace({
   regex: "__web__",
   replacement: `https://github.com/LRydin/Power-Grid-Frequency-Data/raw/master/`,
-  paths: [path.resolve(__dirname, "../", "index.html")],
+  paths: [path.resolve(__dirname, "../../", "index.html")],
   recursive: true,
   silent: true,
 });
