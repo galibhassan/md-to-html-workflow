@@ -90,5 +90,9 @@ h1 {
 .imgParent {
   text-align: center;
 }
-img {
+.tocChunk-h2 {
+  margin-left: 20px;
+}
+.tocChunk-h3 {
+  margin-left: 40px;
 }
