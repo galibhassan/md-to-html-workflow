@@ -1,4 +1,4 @@
-# Power-Grid-Frequency-Data (SAMPLE CHANGE - TO BE DELETED)
+# Power-Grid-Frequency-Data
 
 Power-grid frequency data from around the world, cleaned and processed for research usage
 
@@ -29,16 +29,14 @@ These recordings are obtained from the [TransNet BW](https://www.transnetbw.com/
 
 ### Data to upload still
 
-|                          Germany                          |  France  | Great Britain | Nordic Grid |
-| :-------------------------------------------------------: | :------: | :-----------: | :---------: |
-|                         :x: 2019                          | :x: 2019 |   :x: 2019    |  :x: 2019   |
-|                         :x: 2018                          | :x: 2018 |   :x: 2018    |  :x: 2018   |
-| [2017](__web__Continental%20Europe/Germany/2017/2017.zip) | :x: 2017 |   :x: 2017    |  :x: 2017   |
-|                         :x: 2016                          | :x: 2016 |   :x: 2016    |  :x: 2016   |
-|                         :x: 2015                          | :x: 2015 |   :x: 2015    |  :x: 2015   |
-|                         :x: 2014                          | :x: 2014 |   :x: 2014    |  :x: 2014   |
-
-https://github.com/LRydin/Power-Grid-Frequency-Data/raw/master/Continental%20Europe/Germany/2017/2017.zip
+|                                                      Germany                                                      |  France  | Great Britain | Nordic Grid |
+| :---------------------------------------------------------------------------------------------------------------: | :------: | :-----------: | :---------: |
+|                                                     :x: 2019                                                      | :x: 2019 |   :x: 2019    |  :x: 2019   |
+|                                                     :x: 2018                                                      | :x: 2018 |   :x: 2018    |  :x: 2018   |
+| [2017](https://github.com/LRydin/Power-Grid-Frequency-Data/raw/master/Continental%20Europe/Germany/2017/2017.zip) | :x: 2017 |   :x: 2017    |  :x: 2017   |
+|                                                     :x: 2016                                                      | :x: 2016 |   :x: 2016    |  :x: 2016   |
+|                                                     :x: 2015                                                      | :x: 2015 |   :x: 2015    |  :x: 2015   |
+|                                                     :x: 2014                                                      | :x: 2014 |   :x: 2014    |  :x: 2014   |
 
 # Changelog
 

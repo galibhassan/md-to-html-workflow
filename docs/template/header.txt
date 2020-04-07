@@ -27,10 +27,23 @@
     
   </head>
   <body>
-    <div class="nav"></div>
+    <div class="nav">
+      <div class="logo">Power Grid frequency Data</div>
+      <ul class="nav-link-ul">
+        <li class="nav-links"><a href="https://github.com/LRydin/Power-Grid-Frequency"> GitHub</a></li>
+        <li class="nav-links">
+          <a href="https://www.transnetbw.com/en/energy-market/ancillary-services/control-reserve-demand-activation"
+            >TransNet BW</a
+          >
+        </li>
+        <li class="nav-links"><a href="https://github.com/LRydin/Power-Grid-Frequency-Data">Data Upload</a></li>
+        <li class="nav-links"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
     <div class="tocContainer">
-      <div class="tocHeading"> Table of Content </div>
+      <div class="tocHeading">Table of Content</div>
       <div class="sidebar"></div>
     </div>
 
     <div class="container">
+

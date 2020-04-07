@@ -28,10 +28,3 @@ replace({
   recursive: true,
   silent: true,
 });
-replace({
-  regex: "__web__",
-  replacement: `https://github.com/LRydin/Power-Grid-Frequency-Data/raw/master/`,
-  paths: [path.resolve(__dirname, "../../", "index.html")],
-  recursive: true,
-  silent: true,
-});
