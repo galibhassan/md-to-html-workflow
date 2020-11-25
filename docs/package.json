@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "highlight.js": "^9.18.1",
+    "highlight.js": "^10.1.2",
     "replace": "^1.1.5",
     "showdown": "^1.9.1"
   }
